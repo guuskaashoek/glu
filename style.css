@@ -43,13 +43,22 @@ h1, h2, h3, h4, h5, h6, span, li{
   margin-bottom: 10px;
 }
 
-.next {
+.next1 {
     background-color: var(--primary);
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.next2 {
+  background-color: var(--background);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .center2 {
@@ -90,7 +99,7 @@ h1, h2, h3, h4, h5, h6, span, li{
     }
   }
   
-  .card {
+  .card1 {
     background-color: var(--primary);
     border-radius: 30px;
     margin: 0 100px 100px 100px;
@@ -103,6 +112,22 @@ h1, h2, h3, h4, h5, h6, span, li{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+
+  .card2 {
+    background-color: var(--background);
+    border-radius: 30px;
+    margin: 0 100px 100px 100px;
+    padding: 40px 50px 50px 50px;
+    position: sticky;
+    top: 50%;
+    z-index: 1;
+    box-shadow: 0 0 100px -30px var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #eca72b;
   }
 
   .infotext {
