@@ -113,9 +113,7 @@ h1, h2, h3, h4, h5, h6, span, li{
     padding: 40px 50px 50px 50px;
     z-index: 1;
     border-radius: 30px;
-    background: #eca72b;
-    box-shadow: inset 18px 18px 36px #bd8622,
-                inset -18px -18px 36px #ffc834;
+    box-shadow: 0 0 100px -30px var(--background);
   }
 
   .card2 {
@@ -125,9 +123,7 @@ h1, h2, h3, h4, h5, h6, span, li{
     padding: 40px 50px 50px 50px;
     z-index: 1;
     border-radius: 30px;
-    background: #eca72b;
-    box-shadow: inset 18px 18px 36px #bd8622,
-                inset -18px -18px 36px #ffc834;
+    box-shadow: 0 0 100px -30px var(--background);
     color: var(--background);
   }
 
@@ -139,7 +135,5 @@ h1, h2, h3, h4, h5, h6, span, li{
     border-radius: 30px;
     width: 100%;
     border-radius: 30px;
-background: #eca72b;
-box-shadow: inset 18px 18px 36px #bd8622,
-            inset -18px -18px 36px #ffc834;
+    box-shadow: 0 0 100px -30px var(--background);
   }
