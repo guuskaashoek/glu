@@ -43,22 +43,29 @@ h1, h2, h3, h4, h5, h6, span, li{
   margin-bottom: 10px;
 }
 
-.next1 {
-    background-color: var(--primary);
-    width: 100vw;
-    height: 100vh;
+.next1,
+.next2 {
+  margin-top: 10%;
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.next1 {
+    background-color: var(--primary);
+    /* Andere stijlen die je wilt behouden */
+}
+
 .next2 {
-  background-color: var(--background);
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    background-color: var(--primary);
+    /* Andere stijlen die je wilt behouden */
 }
 
 .center2 {
@@ -104,32 +111,35 @@ h1, h2, h3, h4, h5, h6, span, li{
     border-radius: 30px;
     margin: 0 100px 100px 100px;
     padding: 40px 50px 50px 50px;
-    position: sticky;
-    top: 50%;
     z-index: 1;
-    box-shadow: 0 0 100px -30px var(--background);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    border-radius: 30px;
+    background: #eca72b;
+    box-shadow: inset 18px 18px 36px #bd8622,
+                inset -18px -18px 36px #ffc834;
   }
 
   .card2 {
-    background-color: var(--background);
+    background-color: var(--primary);
     border-radius: 30px;
     margin: 0 100px 100px 100px;
     padding: 40px 50px 50px 50px;
-    position: sticky;
-    top: 50%;
     z-index: 1;
-    box-shadow: 0 0 100px -30px var(--primary);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: #eca72b;
+    border-radius: 30px;
+    background: #eca72b;
+    box-shadow: inset 18px 18px 36px #bd8622,
+                inset -18px -18px 36px #ffc834;
+    color: var(--background);
   }
 
   .infotext {
     text-align: center;
+  }
+
+  .image {
+    border-radius: 30px;
+    width: 100%;
+    border-radius: 30px;
+background: #eca72b;
+box-shadow: inset 18px 18px 36px #bd8622,
+            inset -18px -18px 36px #ffc834;
   }
