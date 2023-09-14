@@ -71,22 +71,22 @@ label {
 }
 
 .item1-on {
-  background-color: #4b75ff50;
+  background-color: var(--primarytr);
   margin-right: 10px;
 }
 
 .item2-on {
-  background-color: #4b75ff50;
+  background-color: var(--primarytr);
   margin-right: 10px;
 }
 
 .item3-on {
-  background-color: #4b75ff50;
+  background-color: var(--primarytr);
   margin-right: 10px;
 }
 
 .item4-on {
-  background-color: #4b75ff50;
+  background-color: var(--primarytr);
   margin-right: 10px;
 }
 
