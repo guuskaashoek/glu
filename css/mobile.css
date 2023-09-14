@@ -74,7 +74,7 @@
 
   .menu-items-mob a {
     text-decoration: none;
-    color: var(--text);
+    color: var(--secondary);
     font-family: var(--font);
     font-size: 40pt;
   }

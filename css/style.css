@@ -58,7 +58,7 @@ label {
 
 .menu-items a {
   text-decoration: none;
-  color: var(--text);
+  color: var(--secondary);
   font-family: var(--font);
   font-size: 30pt;
   font-size: 100%;
@@ -70,8 +70,28 @@ label {
   font-weight: bold;
 }
 
+.item1-on {
+  background-color: #4b75ff50;
+  margin-right: 10px;
+}
+
+.item2-on {
+  background-color: #4b75ff50;
+  margin-right: 10px;
+}
+
+.item3-on {
+  background-color: #4b75ff50;
+  margin-right: 10px;
+}
+
+.item4-on {
+  background-color: #4b75ff50;
+  margin-right: 10px;
+}
+
 .hamburger-icon {
-   display: none;
+  display: none;
 }
   
 .blur-middle {
@@ -122,3 +142,4 @@ label {
   color: #00000000;
   font-size: 25pt;
 }
+
