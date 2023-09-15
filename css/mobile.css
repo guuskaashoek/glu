@@ -93,7 +93,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparante overlay */
-    pointer-events: none; /* Hierdoor kunnen gebruikers er niet op klikken of selecteren */
+    background-color: rgba(255, 255, 255, 0.5);
+    pointer-events: none;
   }
   
